@@ -16,7 +16,7 @@ namespace GeneticImages
 		population.Init();
 
 		int t0 = time(NULL);
-		for (int i = 0; i < 1000; ++i)
+		for (int i = 0; i < 100; ++i)
 		{
 			population.EvaluateFitness();
 			population.NaturalSelection();

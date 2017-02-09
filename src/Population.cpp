@@ -51,17 +51,7 @@ namespace GeneticImages
 	{
 		std::vector<Gene*> topGenes = this->GetTopGenes();
 
-		// for (int i = 0; i < topGenes.size(); ++i)
-		// {
-		// 	topGenes[i]->Save("best-of-generation-" + boost::lexical_cast<std::string>(this->currentGeneration) + "-" + boost::lexical_cast<std::string>(i) + ".png");
-		// }
-
-		//topGenes[0]->Save("best-of-generation-" + boost::lexical_cast<std::string>(this->currentGeneration) + ".png");
-		// std::cout << "Best Fitness of Generation "
-		// 	<< boost::lexical_cast<std::string>(this->currentGeneration)
-		// 	<< ": "
-		// 	<< boost::lexical_cast<std::string>(topGenes[0]->GetFitness())
-		// 	<< std::endl;
+		topGenes[0]->Save("best-of-generation-" + boost::lexical_cast<std::string>(this->currentGeneration) + ".png");
 
 		// Reproduce the top genes
 		std::vector<Gene*> newGenes = this->Reproduce(topGenes);

@@ -1,0 +1,20 @@
+{
+    "version": "0.1.0",
+    "tasks": [
+        {
+            "taskName": "build",
+            "isShellCommand": true,
+            "command": "make",
+            "args": ["build"]
+        },
+        {
+            "taskName": "run",
+            "isShellCommand": true,
+            "command": "./main.exe",
+			"options": {
+				"cwd": "${workspaceRoot}/bin"
+			},
+            "args": []
+        }
+    ]
+}

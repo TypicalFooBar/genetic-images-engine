@@ -1,0 +1,24 @@
+{
+	"files.associations": {
+		"*h*h*hexception": "cpp",
+		"*h*htypeinfo": "cpp",
+		"new": "cpp",
+		"vector": "cpp",
+		"*h*h*h*h*h*h*h*h*h*hpp*hpp*hpp*hpp*hpp*hpp*hpp*hpp*hpp*hpp*hpp*hpp*hpp*hppvalarray": "cpp",
+		"*h*h*hppslist": "cpp",
+		"*harray": "cpp",
+		"*hpp*hpp*hpp*hpp*hpp*hpp*hppcstdint": "cpp",
+		"*hpp*htype_traits": "cpp",
+		"*h*hpptuple": "cpp",
+		"*hpp*hpp*hpp*hpp*hpparray": "cpp",
+		"*h*hpp*hpp*hpp*hpp*hpp*hpp*hpp*hpp*hpprandom": "cpp",
+		"*h*h*h*h*hrandom": "cpp",
+		"cstdlib": "cpp",
+		"cmath": "cpp",
+		"complex": "cpp",
+		"sstream": "cpp",
+		"*tcc*h*h*h*h*h*h*hpp*hpp*hpp*hpp*hpp*hpp*hpp*hpp*h*h*hppslist": "cpp",
+		"typeinfo": "cpp",
+		"random": "cpp"
+	}
+}
